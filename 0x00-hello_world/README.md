@@ -1,1 +1,1 @@
-Preprocessor compilation assembling linking
+Compilation and preprocessing using gnu gcc compiler
