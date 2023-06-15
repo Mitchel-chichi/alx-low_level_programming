@@ -1,1 +1,1 @@
-My first C programmimg
+Creating a Script for preprocessing and output
