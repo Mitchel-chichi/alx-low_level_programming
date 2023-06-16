@@ -1,21 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - output single numbers combinations
+ * main - Print single digit numbers
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int m;
-for (m = '0'; m <= '9'; m++)
+int f;
+for (f = '0'; f <= '9'; f++)
 {
-putchar(m);
-if (m != '9')
+putchar(f);
+if (f != '9')
 {
 putchar(',');
 putchar(' ');
 }
 }
+putchar('\n');
 return (0);
 }
