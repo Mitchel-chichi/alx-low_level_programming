@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* main - output positive negative and zero numbers */
+#include <stdio.h>
+/**
+ * main -Find if the numbers are positive negative or zero
+ *
+ * Return: 0 (success)
+*/
 
-/* Return: 0 (success0 */
 int main(void)
 {
 	int n;
@@ -11,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is positive\n", n);
+		printf("%d is positive\n". n);
 	}
 	else if (n == 0)
 	{
