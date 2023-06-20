@@ -15,7 +15,7 @@ void jack_bauer(void)
 	{
 	for (w = 0; w <= 9; w++)
 	{
-	if((q <= 1 && w <= 9) || (q <= 2 && w <= 3))
+	if ((q <= 1 && w <= 9) || (q <= 2 && w <= 3))
 	{
 	for (x = 0; x <= 5; x++)
 	{
