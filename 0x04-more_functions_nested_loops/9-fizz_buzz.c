@@ -16,13 +16,13 @@ if ((v % 3 == 0) && (v % 5 == 0))
 {
 printf("FizzBuss");
 }
-else if (v % 5 == 0)
-{
-printf("Buzz");
-}
 else if (v % 3 == 0)
 {
 printf("Fizz");
+}
+else if (v % 5 == 0)
+{
+printf("Buzz");
 }
 else
 {
