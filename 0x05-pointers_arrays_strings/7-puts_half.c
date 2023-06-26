@@ -22,7 +22,7 @@ else
 {
 z = e / 2;
 }
-for (; e < z; z++)
+for (; z < e; z++)
 {
 _putchar(str[z]);
 }
