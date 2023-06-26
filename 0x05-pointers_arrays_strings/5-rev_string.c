@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string - it reverses a string 
+ * rev_string - it reverses a string
  * @s: - the parameter to be reversed
 */
 
@@ -13,7 +13,7 @@ char temp;
 while (s[v++])
 u++;
 
-for (v = u -1; v >= u / 2; v--)
+for (v = u - 1; v >= u / 2; v--)
 {
 temp = s[v];
 s[v] = s[u - v - 1];
