@@ -15,7 +15,7 @@ return (_sqrt(n, 0));
 }
 
 /**
- * _sqrt_recursion - it has recursed to find real square root number
+ * _sqrt- it has recursed to find real square root number
  * @n: - the parameter used for calculating square Root.
  * @i: - the parameter used for iteration
  * Return: used for returning the real square root
