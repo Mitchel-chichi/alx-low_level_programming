@@ -17,7 +17,7 @@ unsigned int h, sum = 0;
 char *m;
 if (argc > 1)
 {
-for (g = 0; g < argc; g++)
+for (g = 1; g < argc; g++)
 {
 m = argv[g];
 for (h = 0; h < strlen(m); h++)

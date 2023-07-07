@@ -1,20 +1,22 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - used for multiplication of two argv numbers
+ * main - used for displaying multiplication of argv numbers
  * @argc: - the parameter arg count
  * @argv: - the parameter arg vector
  * Return: must return 0 success
- */
+*/
+
 int main(int argc, char *argv[])
 {
-int dgt = 0, mun = 0;
+int c = 0, w = 0;
 if (argc == 3)
 {
-dgt = atoi(argv[1]);
-mun = atoi(argv[2]);
-printf("%d\n", dgt * mun);
+c = atoi(argv[1]);
+w = atoi(argv[2]);
+printf("%d\n", c * w);/* c multiplies with w*/
 }
 else
 {
