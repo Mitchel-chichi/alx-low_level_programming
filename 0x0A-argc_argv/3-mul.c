@@ -16,7 +16,7 @@ if (argc == 3)
 {
 c = atoi(argv[1]);
 w = atoi(argv[2]);
-printf("%d\n", c * w);/* c multiplies with w*/
+printf("%d\n", c *w);/* c multiplies with w*/
 }
 else
 {
