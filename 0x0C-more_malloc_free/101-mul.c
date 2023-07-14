@@ -56,7 +56,7 @@ dgt = argv[1], mun = argv[2];
 if (argc != 3 || !is_digit(dgt) || !is_digit(mun))
 errors();
 pal1 = _strlen(dgt);
-pal2 = _strlen(mun);;
+pal2 = _strlen(mun);
 pal = pal1 + pal2 + 1;
 res = malloc(sizeof(int) * pal);
 if (!res)
@@ -70,7 +70,7 @@ carry = 0;
 for (pal2 = _strlen(mun) - 1; pal2 >= 0; pal2--)
 {
 let2 = mun[pal2] - '0';
-carry += res[pal1 + pal2 + 1] + (let1 * let2);
+carry += res[pal1 + pal2 + 1] + (let1 *let2);
 res[pal1 + pal2 + 1] = carry % 10;
 carry /= 10;
 }
